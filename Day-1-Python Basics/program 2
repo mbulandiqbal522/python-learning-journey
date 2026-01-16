@@ -1,0 +1,8 @@
+#Take two number as input from user print their summation, subtraction, product and division
+user_data1= int(input("enter the first number"))
+user_data2=int(input("enter the second number"))
+print("sum : ",user_data1+user_data2)
+print("Subtract : ",user_data1-user_data2)
+print("product : ",user_data1*user_data2)
+print("Division with decimal : ",user_data1/user_data2)
+print("Division without decimal : ",user_data1//user_data2)
