@@ -1,0 +1,7 @@
+# Q3. Ask the user to enter two integers and one float. 
+# Convert them all to floats and print their average.
+user_data1 = float(input("enter the first number"))
+user_data2 = int(input("enter the first number"))
+user_data3 = float(input("enter the first number"))
+Average = float(user_data1+user_data2+user_data3)/3
+print("Average in points",Average)
