@@ -1,0 +1,16 @@
+# Packing
+student = ("Muhammad Buland Iqbal", 19, "BS Data Analytics")
+
+# Unpacking
+name, age, program = student
+
+print(name)
+print(age)
+print(program)
+
+
+student = ("Muhammad Buland Iqbal", 19, "BS Data Analytics")
+name, age, program = student
+print("NAME : ",name)
+print("AGE : ",age)
+print("PROGRAM : ",program)
