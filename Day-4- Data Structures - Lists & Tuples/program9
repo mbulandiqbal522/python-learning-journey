@@ -1,0 +1,22 @@
+records = [(1, "Ali"), (2, "Ahmed"), (3, "Sara")]
+
+for roll, name in records:
+    print(roll, name)
+
+numbers = (1, 2, 3, 4, 5)
+
+a, b, *rest = numbers
+
+print(a)
+print(b)
+print(rest)
+
+data = ("Ali", 21, "BS", "UAF")
+
+name, age, _, _ = data
+
+print(name)
+print(age)
+
+_ used for values we don’t need
+
