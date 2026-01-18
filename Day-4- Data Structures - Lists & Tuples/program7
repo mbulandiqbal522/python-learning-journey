@@ -1,3 +1,9 @@
+records = [(1, "Ali"), (2, "Ahmed")]
+
+print(records[0])
+print(records[0][1])
+
+
 days = ("Mon", "Tue", "Wed")
 
 Days don’t change → tuple is best ✔
