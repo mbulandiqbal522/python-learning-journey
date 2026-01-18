@@ -1,0 +1,11 @@
+lists = ['Bhai','Behan','Cousin','Papa']
+lists.append('Mama')
+print(lists)
+
+lists = ['Bhai','Behan','Cousin','Papa']
+lists.extend(['Pet','Mama'])
+print(lists)
+
+lists = ['Bhai','Behan','Cousin','Papa']
+lists.insert(0,'Mama')
+print(lists)
