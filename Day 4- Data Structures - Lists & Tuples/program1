@@ -1,0 +1,7 @@
+#lists...creation...indexing...and..slicing
+
+numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+print(numbers[0]) #prints 1st num
+print(numbers[1]) #print 2nd num
+print(numbers[-1]) #print 3rd num
+print(numbers[0:5]) #slicing
