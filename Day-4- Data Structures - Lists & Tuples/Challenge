@@ -1,0 +1,55 @@
+✅ Steps (Prime Program)
+
+Take input from the user
+
+User enters numbers separated by space.
+
+Convert the input into a list of integers
+
+numbers = list(map(int, input().split()))
+
+Create an empty list to store prime numbers
+
+primes = []
+
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
+
+primes = []
+
+for num in numbers:
+    if num > 1:
+        for i in range(2, num):
+            if num % i == 0:
+                break
+        else:
+            primes.append(num)
+
+print("Prime numbers are:", primes)
+
+
+
+Loop through each number in the list
+
+for num in numbers:
+
+Check if the number is greater than 1
+
+Because prime numbers start from 2.
+
+Check if the number is divisible by any number from 2 to (num-1)
+
+If divisible → it is not prime → stop checking further.
+
+If not divisible by any number
+
+Then it is a prime number.
+
+Add it to the primes list.
+
+After checking all numbers
+
+Print the list of prime numbers.
+
+✔️ Final Output
+
+Displays all prime numbers from the entered list.
