@@ -1,0 +1,16 @@
+items = ["apple", "banana"]
+
+items.append("orange")
+items.extend(["mango", "grapes"])
+items.insert(1, "cherry")
+items.remove("banana")
+items.pop()
+
+print(items)
+
+# Step-by-Step
+# append() → adds one item
+# extend() → adds multiple items
+# insert() → adds at specific index
+# remove() → removes by value
+# pop()    → removes last item
