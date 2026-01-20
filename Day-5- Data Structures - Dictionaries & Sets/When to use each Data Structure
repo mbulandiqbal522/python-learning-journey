@@ -1,0 +1,6 @@
+🔹 6️⃣ When to Use Which Data Structure ❓
+Data Type                                               	Use When
+  List                                           	Ordered data, duplicates allowed
+  Tuple	                                          Fixed data, cannot change
+  Dictionary                                     	Key-value data
+  Set	                                            Unique values only
