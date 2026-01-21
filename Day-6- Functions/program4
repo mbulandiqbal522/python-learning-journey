@@ -1,0 +1,6 @@
+cities = ["JHANG","FAISALABAD","LAHORE","ISLAMABAD","MULTAN","KARACHI"]
+heroes = ["Anil kapoor","Shaktiman"]
+def print_len(list):
+    print(len(list))
+print_len(cities)
+print_len(heroes)
