@@ -1,0 +1,8 @@
+x = 10   # Global
+
+def show():
+    x = 5   # Local
+    print(x)
+
+show()
+print(x)
