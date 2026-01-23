@@ -1,0 +1,2 @@
+with open("E:\python buland\demo.txt", "w") as file:
+    file.write("Learning Python File Handling")
